@@ -91,7 +91,7 @@ An interactive 5-page dashboard built on 10+ DAX measures:
 | **Churn Dashboard** | Root cause analysis — churn category, reason, satisfaction score, payment method |
 | **Business Recommendations** | Data-backed action items for leadership |
 
-![Executive Dashboard](images/executive_dashboard.png)
+![Executive Dashboard](executive_dashboard.png)
 ![Churn Dashboard](images/churn_dashboard.png)
 ![Customer Dashboard](images/customer_dashboard.png)
 ![Revenue Dashboard](images/revenue_dashboard.png)

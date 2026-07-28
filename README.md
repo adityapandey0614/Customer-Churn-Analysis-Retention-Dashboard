@@ -50,7 +50,7 @@ Key fields include demographics (Age, Gender, Dependents), account details (Cont
 - Engineered new features: `Tenure_Group`, `Age_Group`, `Churned` (binary flag), `Had_Refund`
 - Verified zero duplicate records and zero negative/invalid values
 
-📓 Full notebook: [`notebooks/Customer_Churn_Analysis.ipynb`](notebooks/Customer_Churn_Analysis.ipynb)
+📓 Full notebook: [`notebooks/Customer_Churn_Analysis.ipynb`](Customer_Churn_Analysis.ipynb)
 
 ---
 
@@ -73,7 +73,7 @@ Key fields include demographics (Age, Gender, Dependents), account details (Cont
 
 10 queries covering beginner → advanced SQL, including `GROUP BY`, `CASE`, `HAVING`, subqueries, `CTEs`, and window functions (`RANK`, `DENSE_RANK`, `ROW_NUMBER`).
 
-📄 Full queries: [`sql/churn_analysis_queries.sql`](sql/churn_analysis_queries.sql)
+📄 Full queries: [`sql/churn_analysis_queries.sql`](churn_analysis_queries.sql)
 
 **Sample finding:** Ranking churn reasons by contract type (via `ROW_NUMBER()` + `PARTITION BY`) revealed that Month-to-Month churn is overwhelmingly competitor-driven, while longer contracts churn for different, more idiosyncratic reasons — a segmentation the aggregate stats alone wouldn't reveal.
 
@@ -97,7 +97,7 @@ An interactive 5-page dashboard built on 10+ DAX measures:
 ![Revenue Dashboard](revenue_dashboard.png)
 ![Recommendations](recommendations_page.png)
 
-📥 Dashboard file: [`powerbi/Customer_Churn_Dashboard.pbix`](powerbi/Customer_Churn_Dashboard.pbix)
+📥 Dashboard file: [`powerbi/Customer_Churn_Dashboard.pbix`](customer_churn_dashboard.pbix)
 
 ---
 

@@ -92,9 +92,9 @@ An interactive 5-page dashboard built on 10+ DAX measures:
 | **Business Recommendations** | Data-backed action items for leadership |
 
 ![Executive Dashboard](executive_dashboard.png)
-![Churn Dashboard](churn_dashboard.png)
 ![Customer Dashboard](customer_dashboard.png)
 ![Revenue Dashboard](revenue_dashboard.png)
+![Churn Dashboard](churn_dashboard.png)
 ![Recommendations](recommendations_page.png)
 
 📥 Dashboard file: [`powerbi/Customer_Churn_Dashboard.pbix`](customer churn dashboard.pbix)
